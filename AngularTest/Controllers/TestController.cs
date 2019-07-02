@@ -14,14 +14,14 @@ namespace AngularTest.Controllers
             "António", "Matias", "Filips"
         };
 
-        [HttpGet("action")]
-        public IEnumerable<Names> NameList()
-        {
-            //return Enumerable.Select(index => new Names
-            //{
-            //    Name
-            //});
-        }
+        //[HttpGet("action")]
+        //public IEnumerable<Names> NameList()
+        //{
+        //    //return Enumerable.Select(index => new Names
+        //    //{
+        //    //    Name
+        //    //});
+        //}
 
         public class Names
         {
